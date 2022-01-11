@@ -2,114 +2,108 @@
 HUMANS PLAIN 
 ----------------------------------------------------------------------------------------------------------------------------
 
-
-
 Performance of 5 fold cross validation
-Average Training Loss: 0.00058 		 Average Test Loss: 0.00019
-AMAD: 9.48746 				         ARPE: 1.50275
-MAD_chest_circumference:  23.34649 	 RPE_chest_circumference:  1.17833
-MAD_height: 6.87372 			     RPE_height: 0.40045
-MAD_inseam 13.29592 			     RPE_inseam 1.95373
-MAD_left_arm_length 7.45850 		 RPE_left_arm_length 1.30359
-MAD_pelvis_circumference: 9.36532 	 RPE_pelvis_circumference: 0.88436
-MAD_right_arm_length 7.73752 		 RPE_right_arm_length 1.33585
-MAD_shoulder_width 7.82223 		     RPE_shoulder_width 3.62792
-MAD_waist_circumference 0.00000 	 RPE_waist_circumference 1.33779
+Average Training Loss: 0.00044 		 Average Test Loss: 0.00017
+AMAD: 8.95272 				 ARPE: 1.42127
+MAD_chest_circumference:  10.95077 	 RPE_chest_circumference:  1.08699
+MAD_height: 6.70481 			 RPE_height: 0.39127
+MAD_inseam 12.19806 			 RPE_inseam 1.78489
+MAD_left_arm_length 7.63885 		 RPE_left_arm_length 1.33436
+MAD_pelvis_circumference: 8.88477 	 RPE_pelvis_circumference: 0.84209
+MAD_right_arm_length 7.33147 		 RPE_right_arm_length 1.26485
+MAD_shoulder_width 7.33418 		 RPE_shoulder_width 3.40818
+MAD_waist_circumference 10.57883 	 RPE_waist_circumference 1.25752
 
 
-loss_over_epochs = [0.00011540403609918333, 0.00012393887383647476, 0.00011843117575457048, 0.00011496858519421949, 0.00011709967930073617, 0.000115188841618874, 0.00011364905511375885, 0.00011339708839841478, 0.00011291786093655294, 0.00011138710018106697, 0.00010994192416546866, 0.00011317066552389103, 0.000113266837009481, 0.00011076767646045482, 0.00010910594649734169, 0.0001088033475298289, 0.000107162562017038, 0.00010850398371076153, 0.00010548074919825012, 0.00010593919970839731]
-
+loss_over_epochs = [0.00010474996315679164, 0.00010357660069833703, 0.0001029066964595889, 9.970348393532429e-05, 0.00010217041563009843, 9.901713269755419e-05, 9.935766843227611e-05, 0.00010308666022259179, 9.906138302540057e-05, 0.00010011237691287533, 9.733750766827143e-05, 9.749428401543507e-05, 9.59116713753853e-05, 9.560794546814577e-05, 9.522665330526554e-05, 9.619868736384281e-05, 9.490286258066287e-05, 9.82536085606019e-05, 9.758018025725808e-05, 9.331489400210558e-05]
 
 ----------------------------------------------------------------------------------------------------------------------------
 HUMANS RGB
 ----------------------------------------------------------------------------------------------------------------------------
 
 Performance of 5 fold cross validation
-Average Training Loss: 0.00061 		 Average Test Loss: 0.00032
-AMAD: 12.58082 				         ARPE: 1.85544
-MAD_chest_circumference:  32.42556 	 RPE_chest_circumference:  1.57226
-MAD_height: 10.72146 			     RPE_height: 0.62488
-MAD_inseam 15.48228 			     RPE_inseam 2.24663
-MAD_left_arm_length 10.03112 		 RPE_left_arm_length 1.75424
-MAD_pelvis_circumference: 13.04850 	 RPE_pelvis_circumference: 1.24514
-MAD_right_arm_length 9.62378 		 RPE_right_arm_length 1.66192
-MAD_shoulder_width 9.31386 		     RPE_shoulder_width 3.79406
-MAD_waist_circumference 0.00000 	 RPE_waist_circumference 1.94436
+Average Training Loss: 0.00056 		 Average Test Loss: 0.00029
+AMAD: 12.10030 				 ARPE: 1.81137
+MAD_chest_circumference:  15.25076 	 RPE_chest_circumference:  1.50723
+MAD_height: 10.28451 			 RPE_height: 0.60077
+MAD_inseam 15.27420 			 RPE_inseam 2.21839
+MAD_left_arm_length 9.76530 		 RPE_left_arm_length 1.70900
+MAD_pelvis_circumference: 11.95773 	 RPE_pelvis_circumference: 1.14361
+MAD_right_arm_length 9.37470 		 RPE_right_arm_length 1.62129
+MAD_shoulder_width 9.58741 		 RPE_shoulder_width 3.88590
+MAD_waist_circumference 15.30780 	 RPE_waist_circumference 1.80475
 
-loss_over_epochs = [0.00017886748628370697, 0.0001739008580443624, 0.00017436235581650786, 0.0001732461273604713, 0.00017169433976960136, 0.00017275337525764675, 0.00016947301128311665, 0.0001671291599147177, 0.0001678124843541203, 0.00016576826449939594, 0.00016293306953230058, 0.0001604877496295861, 0.0001613465898723613, 0.00016208624219871126, 0.00015854604392491942, 0.000158446766211758, 0.0001572638222266202, 0.0001566676542855324, 0.00015408070847418762, 0.00015374575734009946]
-
+loss_over_epochs = [0.00016796395402707276, 0.00016918029071651594, 0.00016729161052353447, 0.0001694001419612808, 0.0001711645231807779, 0.00016275895283494415, 0.000160630678844124, 0.0001608891142647432, 0.0001574609136696381, 0.0001555462962793778, 0.00015799972121991837, 0.00015683892843298963, 0.00015726099422863626, 0.0001539216130671169, 0.000151901904321979, 0.0001490611046695752, 0.00014867747700009204, 0.0001492268787236147, 0.00014741221366421087, 0.0001500937739820074]
 
 ----------------------------------------------------------------------------------------------------------------------------
 HUMANS TEXTURE
 ----------------------------------------------------------------------------------------------------------------------------
 
 Performance of 5 fold cross validation
-Average Training Loss: 0.00124 		 Average Test Loss: 0.00112
-AMAD: 22.36622 				         ARPE: 3.05804
-MAD_chest_circumference:  57.79854 	 RPE_chest_circumference:  2.82167
-MAD_height: 25.28156 			     RPE_height: 1.47700
-MAD_inseam 24.62188 			     RPE_inseam 3.47140
-MAD_left_arm_length 16.58655 		 RPE_left_arm_length 2.90721
-MAD_pelvis_circumference: 24.00570 	 RPE_pelvis_circumference: 2.32893
-MAD_right_arm_length 15.84885 		 RPE_right_arm_length 2.74930
-MAD_shoulder_width 14.78670 		 RPE_shoulder_width 5.16852
-MAD_waist_circumference 0.00000 	 RPE_waist_circumference 3.54028
+Average Training Loss: 0.00175 		 Average Test Loss: 0.00180
+AMAD: 27.54310 				 ARPE: 3.67887
+MAD_chest_circumference:  36.29690 	 RPE_chest_circumference:  3.61209
+MAD_height: 31.78296 			 RPE_height: 1.85937
+MAD_inseam 29.98528 			 RPE_inseam 4.21084
+MAD_left_arm_length 17.89136 		 RPE_left_arm_length 3.13622
+MAD_pelvis_circumference: 31.00783 	 RPE_pelvis_circumference: 3.01225
+MAD_right_arm_length 17.90270 		 RPE_right_arm_length 3.10445
+MAD_shoulder_width 17.01719 		 RPE_shoulder_width 5.84761
+MAD_waist_circumference 38.46059 	 RPE_waist_circumference 4.64816
 
-loss_over_epochs = [0.00033457650655085064, 0.0003092416353259371, 0.0002956948574137641, 0.00028393968189751223, 0.0002764283079462378, 0.0002697799107712247, 0.00026329811862524366, 0.0002609970254828416, 0.0002508522581289678, 0.00024836083260500647, 0.00024166484809029498, 0.00023967839388205903, 0.0002387263049665004, 0.0002301485390792853, 0.00022857797724403403, 0.00022206502383899837, 0.00021812270051668747, 0.00021564023109021946, 0.00021211659880767306, 0.000211959553022704]
-
+loss_over_epochs = [0.00044232515301700914, 0.0004186996211501537, 0.00038824251381205005, 0.0003716793432128422, 0.00035854033012583386, 0.00035923651315291255, 0.0003403189275559271, 0.000331925691170909, 0.00032223845998184214, 0.0003194274853134023, 0.0003091411776949826, 0.0003046532559286182, 0.0002958046557068883, 0.0002966329279843194, 0.00029077356627264334, 0.00028408053579672316, 0.0002795704748071633, 0.00027545066238114185, 0.00027782891993410885, 0.00026584405577523285]
 
 ----------------------------------------------------------------------------------------------------------------------------
 MONSTERS PLAIN
 ----------------------------------------------------------------------------------------------------------------------------
 
 Performance of 5 fold cross validation
-Average Training Loss: 0.00501 		 Average Test Loss: 0.00351
-AMAD: 33.59400 				         ARPE: inf
-MAD_chest_circumference:  80.39569 	 RPE_chest_circumference:  4.13387
-MAD_height: 22.51370 			     RPE_height: 1.33127
-MAD_inseam 35.71135 			     RPE_inseam inf
-MAD_left_arm_length 41.09893 		 RPE_left_arm_length 16.72974
-MAD_pelvis_circumference: 28.86105 	 RPE_pelvis_circumference: 2.86501
-MAD_right_arm_length 36.21159 		 RPE_right_arm_length 14.49357
-MAD_shoulder_width 23.95973 		 RPE_shoulder_width 7.83807
-MAD_waist_circumference 0.00000 	 RPE_waist_circumference 5.36880
+Average Training Loss: 0.00378 		 Average Test Loss: 0.00270
+AMAD: 29.98091 				 ARPE: inf
+MAD_chest_circumference:  36.95596 	 RPE_chest_circumference:  3.71588
+MAD_height: 21.31004 			 RPE_height: 1.26220
+MAD_inseam 30.98850 			 RPE_inseam inf
+MAD_left_arm_length 37.75420 		 RPE_left_arm_length 13.52219
+MAD_pelvis_circumference: 25.80484 	 RPE_pelvis_circumference: 2.59394
+MAD_right_arm_length 32.87093 		 RPE_right_arm_length 12.92125
+MAD_shoulder_width 22.49711 		 RPE_shoulder_width 7.10383
+MAD_waist_circumference 31.66570 	 RPE_waist_circumference 4.42689
 
-loss_over_epochs = [0.00017886748628370697, 0.0001739008580443624, 0.00017436235581650786, 0.0001732461273604713, 0.00017169433976960136, 0.00017275337525764675, 0.00016947301128311665, 0.0001671291599147177, 0.0001678124843541203, 0.00016576826449939594, 0.00016293306953230058, 0.0001604877496295861, 0.0001613465898723613, 0.00016208624219871126, 0.00015854604392491942, 0.000158446766211758, 0.0001572638222266202, 0.0001566676542855324, 0.00015408070847418762, 0.00015374575734009946]
+loss_over_epochs = [0.001011881173326401, 0.0009813138822210021, 0.0009713687468320131, 0.0009063816360139754, 0.0008771420834818855, 0.0008794847672106698, 0.0009166613635898102, 0.0008466909384878818, 0.0008287413147627376, 0.0008350203679583501, 0.0008129018624458695, 0.0007613271263835486, 0.0007776682286930736, 0.0007264466657943558, 0.0007162042602431029, 0.0006929175215191208, 0.0007066608013701625, 0.0006533417072205339, 0.0006775961592211388, 0.0006704316292598378]
 
-
-----------------------------------------------------------------------------------------------------------------------------
-MONSTERS TEXTURE
-----------------------------------------------------------------------------------------------------------------------------
-
-Performance of 5 fold cross validation
-Average Training Loss: 0.00839 		 Average Test Loss: 0.01089
-AMAD: 59.62883 				         ARPE: inf
-MAD_chest_circumference:  148.07724  RPE_chest_circumference:  7.01956
-MAD_height: 70.17379 			     RPE_height: 4.22322
-MAD_inseam 64.92083 			     RPE_inseam inf
-MAD_left_arm_length 47.39499 		 RPE_left_arm_length 20.64488
-MAD_pelvis_circumference: 67.96262 	 RPE_pelvis_circumference: 7.03552
-MAD_right_arm_length 45.81692 		 RPE_right_arm_length 13.81708
-MAD_shoulder_width 32.68429 		 RPE_shoulder_width 10.07620
-MAD_waist_circumference 0.00000 	 RPE_waist_circumference 10.87700
-
-loss_over_epochs = [0.00017886748628370697, 0.0001739008580443624, 0.00017436235581650786, 0.0001732461273604713, 0.00017169433976960136, 0.00017275337525764675, 0.00016947301128311665, 0.0001671291599147177, 0.0001678124843541203, 0.00016576826449939594, 0.00016293306953230058, 0.0001604877496295861, 0.0001613465898723613, 0.00016208624219871126, 0.00015854604392491942, 0.000158446766211758, 0.0001572638222266202, 0.0001566676542855324, 0.00015408070847418762, 0.00015374575734009946]
 
 ----------------------------------------------------------------------------------------------------------------------------
 MONSTERS RGB
 ----------------------------------------------------------------------------------------------------------------------------
 
 Performance of 5 fold cross validation
-Average Training Loss: 0.00477 		 Average Test Loss: 0.00349
-AMAD: 33.62388 				         ARPE: inf
-MAD_chest_circumference:  77.65632 	 RPE_chest_circumference:  3.94356
-MAD_height: 28.42244 			     RPE_height: 1.68731
-MAD_inseam 34.85021 			     RPE_inseam inf
-MAD_left_arm_length 40.14322 		 RPE_left_arm_length 12.09735
-MAD_pelvis_circumference: 31.38700 	 RPE_pelvis_circumference: 3.18585
-MAD_right_arm_length 32.58579 		 RPE_right_arm_length 12.53106
-MAD_shoulder_width 23.94610 		 RPE_shoulder_width 7.49694
-MAD_waist_circumference 0.00000 	 RPE_waist_circumference 5.31357
+Average Training Loss: 0.00517 		 Average Test Loss: 0.00438
+AMAD: 37.01924 				 ARPE: inf
+MAD_chest_circumference:  46.59951 	 RPE_chest_circumference:  4.58957
+MAD_height: 29.21078 			 RPE_height: 1.73978
+MAD_inseam 37.31884 			 RPE_inseam inf
+MAD_left_arm_length 42.59380 		 RPE_left_arm_length 13.94978
+MAD_pelvis_circumference: 35.41531 	 RPE_pelvis_circumference: 3.58879
+MAD_right_arm_length 37.15098 		 RPE_right_arm_length 13.43432
+MAD_shoulder_width 26.10294 		 RPE_shoulder_width 8.22667
+MAD_waist_circumference 41.76176 	 RPE_waist_circumference 5.93635
 
-loss_over_epochs = [0.00017886748628370697, 0.0001739008580443624, 0.00017436235581650786, 0.0001732461273604713, 0.00017169433976960136, 0.00017275337525764675, 0.00016947301128311665, 0.0001671291599147177, 0.0001678124843541203, 0.00016576826449939594, 0.00016293306953230058, 0.0001604877496295861, 0.0001613465898723613, 0.00016208624219871126, 0.00015854604392491942, 0.000158446766211758, 0.0001572638222266202, 0.0001566676542855324, 0.00015408070847418762, 0.00015374575734009946]
+loss_over_epochs = [0.0011726787233783398, 0.0011385370453353971, 0.0010619110908010043, 0.0010434079231345095, 0.001015588451991789, 0.0009766929360921495, 0.0009635584974603262, 0.0009386567180627026, 0.0008997910335892811, 0.0008661464489705395, 0.0008303936483571306, 0.0007980367772688624, 0.0007768541072437074, 0.0007384232521872036, 0.0007589731394546106, 0.0007177041516115423, 0.0007023026919341646, 0.0006781091979064513, 0.0006592223489860771, 0.0006589243166672532]
 
+----------------------------------------------------------------------------------------------------------------------------
+MONSTERS TEXTURE
+----------------------------------------------------------------------------------------------------------------------------
+
+Performance of 5 fold cross validation
+Average Training Loss: 0.00822 		 Average Test Loss: 0.00944
+AMAD: 56.46151 				 ARPE: inf
+MAD_chest_circumference:  68.95835 	 RPE_chest_circumference:  6.74952
+MAD_height: 64.74845 			 RPE_height: 3.87308
+MAD_inseam 61.72154 			 RPE_inseam inf
+MAD_left_arm_length 48.26643 		 RPE_left_arm_length 21.21114
+MAD_pelvis_circumference: 60.91516 	 RPE_pelvis_circumference: 6.37751
+MAD_right_arm_length 42.21447 		 RPE_right_arm_length 13.00685
+MAD_shoulder_width 32.18989 		 RPE_shoulder_width 9.92953
+MAD_waist_circumference 72.67776 	 RPE_waist_circumference 10.73859
+
+loss_over_epochs = [0.0017624694446567446, 0.0016679430154908914, 0.0015282752137864009, 0.0014465054046013393, 0.0013581233761215117, 0.0013135805311321747, 0.0012807328203052748, 0.001257007537788013, 0.001229251687618671, 0.0011902940823347308, 0.0011267004447290674, 0.0011247648726566695, 0.0010788105355459265, 0.0010483204023330472, 0.0010136093151231762, 0.0010255844936182257, 0.0009988737838284578, 0.0009768964337126818, 0.0009429269885004032, 0.0009035602724907221]
