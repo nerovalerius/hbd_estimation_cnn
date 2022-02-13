@@ -1,4 +1,4 @@
-# humanoids_cnn - Detect Humans / Monsters with a CNN
+# Human-shape classification with artificial backgrounds
 ## Armin Niedermueller and Melanie Urban
 
 This repository aims to train a convolutional neural network with generated images of humans and monsters.
@@ -31,4 +31,9 @@ texture and background dataset.
 
 ## our semester paper
 [LINK](https://github.com/nerovalerius/humanoids_cnn/blob/main/human_shape_classification_w_backgrounds.pdf)
+
+## original paper
+[LINK](https://github.com/neoglez/neural-anthropometer)
+
+
 
