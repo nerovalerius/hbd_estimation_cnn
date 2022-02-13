@@ -35,5 +35,6 @@ texture and background dataset.
 ## original paper
 [LINK](https://github.com/neoglez/neural-anthropometer)
 
-
+## results
+![results psp](https://github.com/nerovalerius/humanoids_cnn/blob/main/results.jpg)
 
