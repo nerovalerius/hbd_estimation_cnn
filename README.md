@@ -1,4 +1,4 @@
-# Human-shape estimation with artificial backgrounds
+# Human shape estimation with artificial backgrounds
 ## Armin Niedermueller and Melanie Urban
 
 This repository aims to train a convolutional neural network with generated images of humans and monsters.
@@ -7,10 +7,10 @@ The dataset is annotated with human body dimension. Monsters have dimensions whi
 The images have a grey background. We first introduce artificial backgrounds to the dataset.
 Three datasets are then created:
 * the original dataset with a grey background
-* the humanoids with a texture background 
-* the humanoids with a random single color RGB background
+* images with a texture background 
+* images with a random single color RGB background
 
-The goal is to detect the humanoids and be able to calculate their body dimensions.
+The goal is to calculate their human body dimensions.
 Monsters and humans should be differentiated.
 
 ## Abstract: 
@@ -31,7 +31,7 @@ than those reported in the original work we focused on. And it
 even accomplish remarkable results with different backgrounds.
 
 ## our semester paper
-[LINK](https://github.com/nerovalerius/humanoids_cnn/blob/main/human_shape_classification_w_backgrounds.pdf)
+[LINK](https://github.com/nerovalerius/humanoids_cnn/blob/main/human_shape_estimation_w_backgrounds.pdf)
 
 ## original paper
 [LINK](https://github.com/neoglez/neural-anthropometer)
